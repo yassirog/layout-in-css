@@ -6,7 +6,21 @@
     <title>Basic Layout 1</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      body {
+            margin: 1em;
+            display: grid;
+            grid-template-columns: 0fr 3fr;
+            grid-template-rows: 0.5fr 3fr 0.5fr;
+            grid-column-gap: 0.5em;
+            grid-template-areas:
+            'blauw blauw'
+            'roze geel'
+            'zwart zwart' 
+            ;
+            gap: 0.5em;
+
+        }
+
     </style>
   </head>
   <body id="basic-layout-1">

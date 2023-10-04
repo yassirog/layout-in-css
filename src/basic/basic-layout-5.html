@@ -6,8 +6,20 @@
     <title>Basic Layout 5</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
-    </style>
+    body {
+            margin: 1em;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.3fr 1fr 0.25fr;
+            grid-column-gap: 0.5em;
+            grid-template-areas:
+            'blauw blauw'
+            'geel roze'
+            'geel zwart'
+            ;
+            gap: 0.5em;
+
+        }        </style>
   </head>
   <body id="basic-layout-5">
     <header><h1>Basic Layout 5</h1></header>
